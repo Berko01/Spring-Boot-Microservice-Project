@@ -19,12 +19,14 @@
     <module>product-service</module>
     <module>discovery-service</module>
     <module>api-gateway</module>
+    <module>notification-service</module>
   </modules>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <spring-cloud.version>2021.0.2</spring-cloud.version>
+    <java.version>17</java.version>
 
   </properties>
 
