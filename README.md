@@ -67,49 +67,46 @@ You are ready to go!
 
 
 
-  
+
 ## Technologies
 
 **Language:** Bash / Shell Scripting
 
 **Technologies:** - Docker and Kubernetes
 
-
-  
-**Language:** Spring Boot 
+**Language:** Spring Boot
 
 **Technologies:** -Lombok -Actuator -Webflux -Crypto -Gateway
 
-![Uygulama Ekran Görüntüsü](spring.png)
+<img src="spring.png" alt="Spring Boot" width="100">
 
-**Databases:**  -MongoDB -MySql -Circuitbreaker 
+**Databases:** -MongoDB -MySql -Circuitbreaker
 
-![Uygulama Ekran Görüntüsü](mysql.png)
-
-![Uygulama Ekran Görüntüsü](mongo.png)
+<img src="mysql.png" alt="MySQL" width="100">
+<img src="mongo.png" alt="MongoDB" width="100">
 
 **Cloud computing technologies** Grafana, Prometheus
 
-![Uygulama Ekran Görüntüsü](Grafana_logo.svg.png)
-
-![Uygulama Ekran Görüntüsü](prometheus.png)
+<img src="Grafana_logo.svg.png" alt="Grafana" width="100">
+<img src="prometheus.png" alt="Prometheus" width="100">
 
 **Performance analysis and monitoring technology** Zipkin
 
-![Uygulama Ekran Görüntüsü](zipkin.png)
+<img src="zipkin.png" alt="Zipkin" width="100">
 
 **Service discovery technology** Netflix Eureka
 
-![Uygulama Ekran Görüntüsü](eureka.png)
+<img src="eureka.png" alt="Eureka" width="100">
 
 **Security technology** Keycloak
 
-![Uygulama Ekran Görüntüsü](eureka.png)
+<img src="Keycloak_Logo.png" alt="Keycloak" width="100">
 
 **Data streaming technologies**
 
-![Uygulama Ekran Görüntüsü](kafka.png)
-![Uygulama Ekran Görüntüsü](zookeeper.jpg)
+<img src="kafka.png" alt="Kafka" width="100">
+<img src="zookeeper.jpg" alt="Zookeeper" width="100">
+
 ## API Usage
 
 !!! For api key usage please read Distribution part.
