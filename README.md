@@ -162,6 +162,12 @@ You are ready to go!
 
 
 
+## Tests
+
+Postman Tests
+![Uygulama Ekran Görüntüsü](Postman.png)
+
+
 
 
   
@@ -198,7 +204,4 @@ Communication between microservices.
 - [@Berko01](https://github.com/Berko01) development.
 
 - [@ProgrammingTechie](https://www.youtube.com/watch?v=mPPhcU7oWDU&t=9072s) this is the resource of project. I learned and coded the project from here, and I added my improvements.
-## Tests
 
-Postman Tests
-![Uygulama Ekran Görüntüsü](Postman.png)
