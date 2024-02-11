@@ -124,7 +124,7 @@ You are ready to go!
 | `price` | `Int` | **Required** . |
 
 
-| Headers | Tip     | Açıklama                |
+| Headers | Type     | Description               |
 | :-------- | :------- | :------------------------- |
 | `Authorization` | `Bearer:{{access_token}}` | **Required** . Your API key. |
 
@@ -134,14 +134,14 @@ You are ready to go!
   POST /api/order
 ```
 
-| Body | Tip     | Açıklama                |
+| Body | Type     | Description               |
 | :-------- | :------- | :------------------------- |
 | `skuCode` | `String` | **Required** .  |
 | `price` | `BigDecimal` | **Required** . |
 | `quantity` | `Int` | **Required** . |
 
 
-| Headers | Tip     | Açıklama                |
+| Headers | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `Authorization` | `Bearer:{{access_token}}` | **Required** . Your API key. |
 
