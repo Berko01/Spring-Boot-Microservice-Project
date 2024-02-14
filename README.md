@@ -10,7 +10,7 @@ Feel free to ask if you have any further questions or need additional informatio
 
 ## UML Diagram
 
-![Uygulama Ekran Görüntüsü](repository-open-graph-template.png)
+![Uygulama Ekran Görüntüsü](MicroserviceUMLDiagram.png)
 
 
 
