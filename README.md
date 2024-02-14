@@ -8,7 +8,9 @@ At its core, the project encompasses operations such as adding products, viewing
 Feel free to ask if you have any further questions or need additional information!
 
 
+## UML Diagram
 
+![Uygulama Ekran Görüntüsü](repository-open-graph-template.png)
 
 
 
@@ -17,19 +19,48 @@ Feel free to ask if you have any further questions or need additional informatio
 
 - Grafana and Prometheus
 
+  I use Prometheus to monitor the overall performance and traffic of all services and the system. For visualizing the data, I use Grafana.
+
 ![Uygulama Ekran Görüntüsü](grafana.png)
 
 - Eureka:
+  
+  Eureka represents the Discovery Server component. Through Eureka, we perform service discovery and ensure that these independent services operate within a dynamically scalable mechanism. Eureka tracks and provides the locations of all services, facilitating communication between them. Additionally, it enhances security within our system
 
 ![Uygulama Ekran Görüntüsü](eurekadetails.png)
 
 - Keycloak:
 
+  Keycloak serves as the security component of our system, directly integrated with the ApiGateway. Through Keycloak, we secure our system, ensuring that every incoming request undergoes security checks.
+
 ![Uygulama Ekran Görüntüsü](keycloakdetails.png)
 
--Zipkin:
+- Zipkin:
+
+  With Zipkin, we can track inter-service interactions in more detail. We can access detailed information such as the passage of a request between different services and its processing time.
 
 ![Uygulama Ekran Görüntüsü](zipkindetail.png)
+
+- Api Gateway:
+  
+  The API Gateway allows us to abstract away the complexity between services and connect them seamlessly. Essentially, it receives HTTP requests, processes them through security filters, and routes them accordingly.
+
+- Inventory Service and MySql Inventory Database:
+
+  When an inventory control request is received, the Inventory Service queries the inventory database to perform the necessary checks.
+
+- Order Service and MySql Order Database:
+
+  When an inventory control request is received, the Inventory Service queries the inventory database to perform the necessary checks.
+
+- Product Service and MongoDB Product Database
+
+  The Product Service handles the process of adding products to the Product Database.
+
+- Order Service and MySql Order Database
+
+The Order Service handles the process of placing product orders.
+
 
 
   
